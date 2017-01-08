@@ -1,0 +1,44 @@
+{
+  "extends": "airbnb/base",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "strict": [2, "global"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "globals": {
+    "$": true,
+    "window": true,
+    "Zepto": true,
+    "define": true,
+    "document": true,
+    "WeixinJSBridge": true,
+    "wx": true,
+    "__dirname": true
+  },
+  "rules": {
+    "indent": [2, 4],
+    "no-new-func": 1,
+    "no-new": 0,
+    "generator-star-spacing": [0, {"before": false, "after": false}],
+    "no-param-reassign": 0,
+    "no-unused-expressions": 0,
+    "no-restricted-syntax": [1, "ForInStatement"],
+    "no-underscore-dangle": 0,
+    "no-plusplus": [0, {"allowForLoopAfterthoughts": true}],
+    "func-names": [1],
+    "consistent-return": [1],
+    "no-useless-escape": [1],
+    "no-shadow": [1],
+    "no-use-before-define": [0, "nofunc"],
+    "no-lonely-if": 1,
+    "eqeqeq": [1, "smart"],
+    "max-len": [1, 160]
+  },
+  "no-unneeded-ternary": [1]
+}
