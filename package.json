@@ -1,13 +1,11 @@
 {
   "name": "datapicker-wap",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "日期选择组件 基于zepto #使用 html内引入 ``` <div data-datepicker>2016-1-2</div> ``` #说明 改组件只处理日期，日期的默认值通过规定格式‘xxxx-xx-xx’来赋值，如果没有默认值，选择是为当前日期。",
   "main": "./src/dateInput.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "test": "test"
   },
-  "author": "YardWill",
-  "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {
@@ -22,5 +20,18 @@
     "less-loader": "^2.2.3",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YardWill/datapicker-wap.git"
+  },
+  "author": "Yard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YardWill/datapicker-wap/issues"
+  },
+  "homepage": "https://github.com/YardWill/datapicker-wap#readme"
 }
